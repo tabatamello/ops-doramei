@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1391" height="376" viewBox="0 0 1391 376">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 380px;
+        fill: #010202;
+        font-family: "Hallo sans";
+        font-weight: 300;
+      }
+
+      .cls-2 {
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  <text id="opsdoramei" class="cls-1" x="-11">ops<tspan class="cls-2">doramei</tspan></text>
+</svg>
