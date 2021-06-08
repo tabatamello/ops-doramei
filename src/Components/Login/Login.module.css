@@ -1,0 +1,43 @@
+.login {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+  gap: 3rem;
+  background: url('../../assets/background.png') no-repeat center center;
+  background-size: cover;
+}
+
+.login::before {
+  display: block;
+  content: '';
+  background: url('../../assets/holo.png') no-repeat center center;
+  background-size: cover;
+}
+
+.forms {
+  /* margin-top: 130px; */
+  max-width: 45rem;
+  padding: 1rem;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.formsCentralizar {
+  /* text-align: center; */
+  vertical-align: middle;
+  display: table-cell;
+}
+
+@media (max-width: 40rem) {
+  .login {
+    grid-template-columns: 1fr;
+  }
+  .login::before {
+    display: none;
+  }
+  .forms {
+    max-width: 100%;
+  }
+}
